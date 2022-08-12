@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tajawal:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <h1>Frostflow Lighthouse</h1>
+  <p> Library for project from the "Odin Project". visit my <a href="https://github.com/SamP-maker">Github</a> for more project completions like these.
+  </p>
+
+  <div class="button--dropdown" id="button-div">
+    <button id="button--form" class="button__hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+  </div>
+  <form id="form" class="hidden">
+  <label for="Title">Title</label>
+    <input type="text" name ="Title" id="Title">
+    <label for="Author">Author</label>
+    <input type="text" name ="Author" id="Author">
+    <label for="Pages">Pages</label>
+    <input type="number" name ="Pages" id="Pages">
+    <label>Status</label>
+    <label  class="switch">
+    <input type="checkbox" id="Status">
+    <span class="slider round"></span>
+    </label>
+    <input type="Submit" id="Submit" name="Submit" class="Submit">
+  </form>
+  <table id="table">
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+      <tbody id="table-body"></tbody>
+  </table>
+<script src="script.js"></script>
+
+
+
+  
+</body>
+
+</html>
+<!--<script src="tablescript.js"></script>-->
